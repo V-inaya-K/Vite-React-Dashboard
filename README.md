@@ -12,6 +12,7 @@ The project is built using the following technologies:
 ## How to run?
 
 **Step 1:** npm install
+
 **Step 2:** npm run dev 
 
 ![Animated GIF](https://media1.giphy.com/media/l3mZnuz4coJp8EBBm/giphy.gif)
