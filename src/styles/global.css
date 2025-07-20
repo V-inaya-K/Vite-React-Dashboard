@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.login-background,.dashboard-background {
+  min-height: 100vh;
+  background-image: url('https://t4.ftcdn.net/jpg/02/67/40/21/240_F_267402109_jZvsqRQUvSxohAOmcUt549jlapqoRHM0.jpg'); /* adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  text-align: center;
+  border: 2px solid #000000;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2d8cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 30%;
+}
+
+button:hover {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.logout-btn {
+  background-color: #e74c3c;
+  margin-left: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 120px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  background: #fff;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
