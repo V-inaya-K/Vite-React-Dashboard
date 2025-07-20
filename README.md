@@ -5,14 +5,14 @@
 ## Tech Stack  
 The project is built using the following technologies:  
 
-- **Vite** (for cross-platform development)  
-- **React** (programming language)  
+- **Vite** (Framewrok)  
+- **React** (Programming Language)  
 - **PokeAPI** (Dummy Pokemon List API)
 
 ## How to run?
 
-- npm install
-- npm run dev 
+**Step 1:** npm install
+**Step 2:** npm run dev 
 
 ![Animated GIF](https://media1.giphy.com/media/l3mZnuz4coJp8EBBm/giphy.gif)
 
